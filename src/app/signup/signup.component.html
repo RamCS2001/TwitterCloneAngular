@@ -1,0 +1,66 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+
+<body>
+<section class="intro"> 
+    <div class="loginImage">
+        <img src="../../assets/images/twitteredit.png" height=712px >
+    </div>
+    
+    <div class="loginForm">
+      <div class="container"> 
+          <h1>
+              Twitter Clone
+          </h1>
+          <h1>
+              Happening Now
+          </h1><br>
+          <h1 class="login-text">
+              Join Now
+          </h1>
+          <form name="signup" method="get" action="">
+              <div class="row">
+                <div class="col">
+                  <label class="form-label">Name:</label>
+                  <input type="text" class="textbox" name="name" placeholder="Name" class="form-control" [(ngModel)]="name"/><br>
+                </div>
+                <div class="col">
+                  <label class="form-label">Email:</label>
+                  <input type="text" class="textbox" name="email" placeholder="Email" class="form-control" [(ngModel)]="email"/><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label class="form-label">Date:</label>
+                  <input type="text" class="textbox" name="date" placeholder="Date" class="form-control" [(ngModel)]="date"/><br>
+                </div>
+                <div class="col">
+                  <label class="form-label">Month:</label>
+                  <input type="text" class="textbox" name="month" placeholder="Month" class="form-control" [(ngModel)]="month"/><br>
+                </div>
+                <div class="col">
+                  <label class="form-label">Year:</label>
+                  <input type="text" class="textbox" name="year" placeholder="Year" class="form-control" [(ngModel)]="year"/><br>
+                </div>
+              </div>
+              <label class="form-label">Username:</label>
+              <input type="text" class="textbox" name="username" placeholder="Username" class="form-control" [(ngModel)]="username"/><br>
+              <div class="row">
+                <div class="col">
+                  <label class="form-label">Password:</label>
+                  <input type="password" class="textbox" name="Cpassword" placeholder="Password" class="form-control" [(ngModel)]="password"/><br>
+                </div>
+                <div class="col">
+                  <label class="form-label">Confirm Password:</label>
+                  <input type="password" class="textbox" name="password" placeholder="Password" class="form-control" [(ngModel)]="Cpassword"/><br>
+                </div>
+              </div>
+            
+              <button class="btn btn-primary" (click)="signup()">Sign-Up</button><br>
+          </form><br>
+          <a href="http://localhost:4200/login/">Already have an account?</a>
+      </div>        
+  </div>
+</section>
+</body>

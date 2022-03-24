@@ -1,0 +1,27 @@
+
+.intro{
+    background-color: black;
+}
+.loginImage{
+    float: left;
+}
+.loginForm{
+    background-color: black;
+    height: 713px;
+    padding-left: 800px;
+    padding-top: 100px;
+}
+.container{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+form{
+    font-family: sans-serif;
+}
+.login-text{
+    font-family: sans-serif;
+    
+}
+.textbox{
+    width: 100px !important;
+}

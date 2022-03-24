@@ -1,0 +1,42 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+
+<body>
+<section class="intro"> 
+    <div class="loginImage">
+        <img src="../../assets/images/twitteredit.png" height=712px >
+    </div>
+    
+    <div class="loginForm">
+      <div class="container"> 
+          <h1>
+              Twitter Clone 
+          </h1>
+          <h1>
+              Happening Now
+          </h1><br>
+          <h1 class="login-text">
+              Login
+          </h1>
+          <form name="logininForm" method="GET" action="">
+              <div class="row">
+                <div class="col-6">
+                  <label class="form-label">Username :</label>
+                  <input type="text" class="textbox" name="Username" placeholder="Username" class="form-control" [(ngModel)]="usernameBox"/><br>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-6">
+                  <label class="form-label">Password:</label>
+                  <input type="password" class="textbox" name="Password" placeholder="Password" class="form-control" [(ngModel)]="passwordBox"/><br>
+                </div>
+              </div>
+              <button class="btn btn-primary" (click)="loginCheck()">Log-in</button><br>
+          </form><br>
+          <a href="http://localhost:4200/login/signup">Do Not have an account? Join Us Now</a>
+          
+      </div>        
+  </div>
+</section>
+</body>
